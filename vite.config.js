@@ -8,5 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  //  base: "/Reactproject/"
-});
+  //  base: "/New-React/",
+})
+
