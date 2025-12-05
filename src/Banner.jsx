@@ -1,9 +1,12 @@
 import { useState } from "react";
+import banner from '/src/assets/banner-1.jpg'; 
+import slider from '/src/assets/slider-2.jpg'; 
+import slide from '/src/assets/slide-3.jpg'; 
 
 const slides = [
-  { id: 1, image: "../public/images/banner-1.jpg", title: "Slide 1", subtitle: "This is slide 1" },
-  { id: 2, image: "../public/images/banner-2.jpg", title: "Slide 2", subtitle: "This is slide 2" },
-  { id: 3, image: "../public/images/banner-3.jpg", title: "Slide 3", subtitle: "This is slide 3" },
+  { id: 1, image:banner, title: "Slide 1", subtitle: "This is slide 1" },
+  { id: 2, image: slider, title: "Slide 2", subtitle: "This is slide 2" },
+  { id: 3, image: slide, title: "Slide 3", subtitle: "This is slide 3" },
 ];
 
 export default function Banner() {

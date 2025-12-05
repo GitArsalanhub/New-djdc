@@ -6,7 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuIcon from '@mui/icons-material/Menu';
-
+import logo from './assets/logo.png'; 
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -20,7 +20,7 @@ export default function Navbar() {
         <nav className="container mx-auto px-2 py-4 flex justify-between items-center">
           {/* Logo */}
           <div className="w-[80px]  md:w-[110px] flex items-center">
-            <img src="/src/assets/logo.png" alt="Logo" />
+            <img src={logo} alt="Logo" />
           </div>
 
           {/* Desktop Menu */}

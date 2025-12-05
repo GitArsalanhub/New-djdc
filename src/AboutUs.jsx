@@ -1,11 +1,13 @@
 import React from 'react'
 import EastIcon from '@mui/icons-material/East';
+import about from '/src/assets/about-bg.jpg'; 
+import Aabout from '/src/assets/Aabout-img.png'; 
 
 export default function
     () {
     return (
         <>
-            <div className='bg-[url(../public/images/about-bg.jpg)] bg-cover bg-center bg-no-repeat h-full w-full py-16'>
+            <div className=' bg-cover bg-center bg-no-repeat h-full w-full py-16' style={{ backgroundImage: `url(${about})` }}>
                 <div className='container mx-auto mt-4 px-2 grid grid-cols-1 md:grid-cols-2 gap-4'>
                     <div>
                         <h2 className='text-3xl font-bold mb-4'>About Us</h2>
@@ -25,7 +27,7 @@ export default function
                         <button className='bg-yellow-500 py-2 px-4 rounded text-xl mt-4 transition duration-300 hover:bg-black hover:text-white'>Read More <EastIcon /></button>
                     </div>
                     <div>
-                        <img src='../public/images/about-img.png' alt='battery img' className='flex justify-center' />
+                        <img src={Aabout} alt='battery img' className='flex justify-center' />
                     </div>
                 </div>
             </div>

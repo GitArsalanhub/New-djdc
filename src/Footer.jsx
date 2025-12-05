@@ -3,6 +3,7 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import footer from '/src/assets/footer-logo.png'; 
 
 
 const links = ["Home", "About", "Catalogue", "Contact"];
@@ -20,7 +21,7 @@ export default function Footer() {
                 {/* Logo and Description */}
                 <div>
                     <img
-                        src="/src/assets/footer-logo.png" // अपनी logo की सही path डालें
+                        src={footer} 
                         alt="DJDC Logo"
                         className="mb-4 w-28"
                     />
